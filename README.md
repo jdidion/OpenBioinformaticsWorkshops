@@ -3,7 +3,7 @@ OBW is a community effort to produce complete course material for a series of sh
 
 Both the overall philosophy of OBW and the design of these workshops are heavily inspired by [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). 
 
-All course material is freely available under a [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/), meaning that you may use and modify them as you wish without cost. Although not required, we do appreciate when you acknowledge OBW, and we encourage you to submit suggestions and improvements as GitHub Issues and/or Pull Requests.
+All course materials are freely available under a [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/), meaning that you may use and modify them as you wish without cost. Although not required, we do appreciate when you acknowledge OBW, and we encourage you to submit suggestions and improvements as GitHub Issues and/or Pull Requests.
 
 ## Courses Currently Under Development
 
