@@ -7,9 +7,11 @@ Lessons consist of some or all of the following:
     * Cheat sheets
     * Tutorials/guides
     * Exercises
+    * Scripts
 * Slides
 * Videos
 * Data sets
+* Results of running the exercises
 * Docker, AWS, or other images with required software
 
 # Text Documents
@@ -20,7 +22,7 @@ We expect that there will be cases where more sophisticated documents are needed
 
 # Slides
 
-Slides too should be created in markdown, although special syntax is required. Currently, [Remark.js](https://remarkjs.com) looks like the best option. [Remark boilerplate](https://github.com/brenopolanski/remark-boilerplate) is a good option for automatically rendering slides and publishing to GitHub. Third party [renderers](https://remarkjs.com/remarkise) and [editors](http://platon.io/) also exist. [DeckTape](https://github.com/astefanutti/decktape) can be used to export slides to PDF. It is also acceptable to provide Google Doc slides (under a CC0 license). Please ensure that all media (images, videos, etc.) used in slides is licensed for reuse Furthermore, it should be noted whether the license is compatible with for-profit use (e.g. in a workshop run by a for-profit company).
+Slides too should be created in markdown, although special syntax is required. Currently, [Remark.js](https://remarkjs.com) looks like the best option. [Remark boilerplate](https://github.com/brenopolanski/remark-boilerplate) is a good option for automatically rendering slides and publishing to GitHub. There is also [Xaringan](https://github.com/yihui/xaringan) for generating Remark.js slides from Rmarkdown. Third party [renderers](https://remarkjs.com/remarkise) and [editors](http://platon.io/) also exist. [DeckTape](https://github.com/astefanutti/decktape) can be used to export slides to PDF. It is also acceptable to provide Google Doc slides (under a CC0 license). Please ensure that all media (images, videos, etc.) used in slides is licensed for reuse. Furthermore, it should be noted whether the license is compatible with for-profit use (e.g. in a workshop run by a for-profit company).
 
 # Videos
 
