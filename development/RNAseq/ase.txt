@@ -1,0 +1,72 @@
+Questions:
+
+1. What are the genetic variants in my sample?
+
+Strategy 1.1: Array genotyping
+
+Pros:
+* cost-effective
+Cons:
+* only provides information at a fraction of sites in the genome
+
+Array genotypes can be expanded using statistical imputation. The error rate of imputation is highly situation-dependent. Rare variants will be missed.
+
+Strategy 1.2: WES/WGS
+
+Pros:
+* unbiased variant discovery
+Cons:
+* expensive
+* WES only identifies variants in genes
+
+Strategy 1.3: Call variants from RNA-seq
+
+Pros:
+* cost-effective (2-for-1)
+Cons:
+* elevated error rate due to allelic bias, RNA editing
+* only identifies variants in expressed regions
+
+Most common strategy for studies focused on gene expression is to generate array genotypes + RNA-seq. However, to most accurately answer questions regarding genetic variation, WGS is required.
+
+2. What genes are expressed at different levels from different alleles?
+
+This is called allele-specific expression (ASE) analysis. There are two approaches to answering this question.
+
+2.1 For each individual, what are the set of genes with allelic imbalance?
+
+Answering this question requires two pieces of information:
+
+* RNA-seq reads
+* Variant calls (which may be from a genotype array, WES/WGS, or called from the RNA-seq reads themselves)
+
+The most common way to answer this question is to perform a statistical test at each heterozygous SNP in each gene and compute a p-value indicating whether one allele is more highly expressed than the other. The information for all SNPs within an exon or gene can be aggregated to give a per-exon/per-gene p-value.
+
+There are caveats for this analysis:
+
+* Reads with alternative alleles are often less "mappable" (i.e. have a lower probability of mapping to the correct location in the genome) than reads identical to the reference. This mappability bias can be corrected using a tool such as WASP.
+* The lack of allelic bias does not mean there is not differential expression at the isoform level. Differential isoform expression is beyond the scope of this lesson. The Kallisto and Sleuth tools from the Pachter lab are one option.
+
+2.2 Are there genetic variants associated with allele-specific expression of genes?
+
+This is called allele-specific eQTL (aseQTL) analysis. There are multiple potential mechanisms that can result in aseQTL, e.g.
+
+* If the SNP is within the coding sequence of the gene, it may cause differential polymerase binding, differential transcription/translation efficiency, differential mRNA stability.
+* If the SNP is within an intron, it may cause differential splicing.
+* If the SNP is within nearby regulatory sequence, it may cause differential transcription factor binding.
+* If the SNP is distant from the regulated gene, it may control differential expression of a transcription factor required for that gene's expression.
+
+The most unbiased method of testing for aseQTL is with genome-wide genotypes (array or WGS) + RNA-seq. If you are only interested in identifying aseQTL due to coding variants, you can use SNVs called from RNA-seq. WASP provides a pipeline for this analysis.
+
+3. For a given set of phenotypic classes, are there exons/genes that display different allele-specific behavior under different conditions?
+
+With a sufficiently large number of genetically diverse individuals, you can answer this question with simple statistical tests, although you would also need to correct for differences in allele frequencies at nearby SNPs.
+
+* For a given SNP, test the M phenotype x N allele matrix (e.g. 2x2 for a binary phenotype and bi-allelic SNP) in which the values are either the fraction of individuals that have allelic imbalance or the sum total read count.
+* For a given exon/gene, test for a difference in the rate of allelic imbalance (binary yes/no or continuous allelic ratio) between conditions.
+
+I do not know of any software that will directly answer this question.
+
+4. Are there SNP-SNP interactions that cause differential expression?
+
+This analysis combines ASE and aseQTL information to find haplotypes (alleles on the same chromosome) associated with differential expression. For example, one might test SNP pairs for which one SNP is in the promoter and the other is within the gene body to see if the gene is more highly expressed from the chromosome with one haplotype versus another. To my knowledge there are currently no tools tailored to this type of analysis. Furthermore, the sample sizes required are sufficiently large to make such a study cost-prohibitive.
