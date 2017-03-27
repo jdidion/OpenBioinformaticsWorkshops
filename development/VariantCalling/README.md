@@ -9,3 +9,8 @@ I taught this workshop once, and did not get all the way through the slides. Thu
 Currently, the presentation is in PPT format. The current goal is to convert the slides into Remark.js. The next goal is to create a SWC-style narrative for the workshop.
 
 Another issue is how to host the data files. Currently they are on my computer and backed up to a dropbox folder.
+
+# To add
+
+* Whole-exome variant calling
+    * http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1279-z
