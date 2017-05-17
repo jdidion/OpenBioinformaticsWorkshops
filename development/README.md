@@ -46,3 +46,7 @@ Our workshops use software images to simplify setup. The goal is for all of the 
 * An alternative that may require less upfront work is to use a separate Docker image for each piece of software, many of which are already provided (e.g. http://bioboxes.org/). However, this would require a more complicated installation process for the participants.
 
 We recommend providing a single Docker image that contains all required software, and our default workshop setup guide will reflect this. If you develop a workshop and choose to deviate from this, please make sure to provide a detailed setup guide.
+
+# Goals versus Reality
+
+The workshop materials that are currently available here are in PowerPoint format. The goal is to transition these to MarkDown as described above, but this will take time. Any help is greaty appreciated!
