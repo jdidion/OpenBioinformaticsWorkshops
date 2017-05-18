@@ -1,5 +1,7 @@
 # Developing Lessons
 
+The lessons here are currently under development. Each is at a different stage of completion, some having benefited from several rounds of teaching and improvement based on student feedback. We welcome any contributors that want to help improve these lessons and get them ready for prime-time.
+
 Lessons consist of some or all of the following:
 
 * Text documents
