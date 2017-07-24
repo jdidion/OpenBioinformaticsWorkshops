@@ -19,3 +19,4 @@ All course materials are freely available under a [CC0 license](https://creative
 * A [suggested bioinformatics curriculum](https://docs.google.com/document/d/19EfT9cugBR1usl6gT572Rp6lSJ-AvBkaiAAYuwb0RvU/edit#heading=h.fu7joym25755) collaboratively developed by attendees at the 2016 Biological Data Science meeting
 * [A semester-long Data Carpentry course for biologists](https://github.com/datacarpentry/semester-biology)
 * [Suggestions](http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/) for the minimal bioinformatics education every scientist should receive (tl;dr: data discovery, data management, data munging)
+* [Workshop run by C Titus Brown](https://angus.readthedocs.io/en/2017/)
