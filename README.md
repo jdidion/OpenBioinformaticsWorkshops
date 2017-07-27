@@ -20,3 +20,5 @@ All course materials are freely available under a [CC0 license](https://creative
 * [A semester-long Data Carpentry course for biologists](https://github.com/datacarpentry/semester-biology)
 * [Suggestions](http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/) for the minimal bioinformatics education every scientist should receive (tl;dr: data discovery, data management, data munging)
 * [Workshop run by C Titus Brown](https://angus.readthedocs.io/en/2017/)
+* [10 rules for collaborative lesson development](https://github.com/swcarpentry/collaborative-lesson-development)
+* [Greg Wilson's book on teaching](http://third-bit.com/teaching/)
