@@ -22,3 +22,4 @@ All course materials are freely available under a [CC0 license](https://creative
 * [Workshop run by C Titus Brown](https://angus.readthedocs.io/en/2017/)
 * [10 rules for collaborative lesson development](https://github.com/swcarpentry/collaborative-lesson-development)
 * [Greg Wilson's book on teaching](http://third-bit.com/teaching/)
+* How to teach Data Science: https://arxiv.org/abs/1612.07140
