@@ -12,6 +12,10 @@ All course materials are freely available under a [CC0 license](https://creative
 * Advanced Genetic Variant Analysis
 * RNA-seq Analysis
 
+## Ideas for future courses
+
+* Data exploration and visualization: This would be an advanced R workshop focusing specifically on tidy data (tidyr), data exploration (dplyr), and data visualization (ggplot2). It would focus on a single dataset (gapminder?) and the goal would be to explore the data in many ways, including plotting the data many ways (e.g. http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/).
+
 ## Other Resources
 
 * [The Canadian Bioinformatics Workshops](https://bioinformatics.ca/): This is a fantastic series of workshops going back more than 10 years. Approximately 10 new workshops are hosted each year at various sites around Canada. These workshops run anywhere from 1-5 days. The slides are available for all workshops, and videocasts are also available for most workshops held since 2012. The content of these workshops serves as a good model of what we are trying to develop with OBW.
@@ -23,3 +27,5 @@ All course materials are freely available under a [CC0 license](https://creative
 * [10 rules for collaborative lesson development](https://github.com/swcarpentry/collaborative-lesson-development)
 * [Greg Wilson's book on teaching](http://third-bit.com/teaching/)
 * How to teach Data Science: https://arxiv.org/abs/1612.07140
+* [A guide to teaching data science](https://arxiv.org/abs/1612.07140)
+* UiO has adapted software carpentry to focused, single-day workshops, e.g [Reproducible Analysis in R](http://www.ub.uio.no/english/courses-events/courses/other/Carpentry/software-carpentry/time-and-place/170405_R), and [Collaboration With GitHub](http://www.ub.uio.no/english/courses-events/courses/other/Carpentry/software-carpentry/time-and-place/170524_writing_git).
