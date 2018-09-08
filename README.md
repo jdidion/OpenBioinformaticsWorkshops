@@ -29,3 +29,4 @@ All course materials are freely available under a [CC0 license](https://creative
 * How to teach Data Science: https://arxiv.org/abs/1612.07140
 * [A guide to teaching data science](https://arxiv.org/abs/1612.07140)
 * UiO has adapted software carpentry to focused, single-day workshops, e.g [Reproducible Analysis in R](http://www.ub.uio.no/english/courses-events/courses/other/Carpentry/software-carpentry/time-and-place/170405_R), and [Collaboration With GitHub](http://www.ub.uio.no/english/courses-events/courses/other/Carpentry/software-carpentry/time-and-place/170524_writing_git).
+* Aaron Quinlain's Applied Computational Genomics course: https://github.com/quinlan-lab/applied-computational-genomics
